@@ -30,13 +30,13 @@ public class CoolHands : MonoBehaviour
                 animator.SetIKPositionWeight(AvatarIKGoal.RightHand,1);
                 animator.SetIKRotationWeight(AvatarIKGoal.RightHand,1);  
                 animator.SetIKPosition(AvatarIKGoal.RightHand, RightHand.position);
-                animator.SetIKRotation(AvatarIKGoal.RightHand, RightHand.rotation);
+                animator.SetIKRotation(AvatarIKGoal.RightHand, RightHand.rotation * Quaternion.AngleAxis(90, RightHand.forward));
             }        
             if(LeftHand != null) {
                 animator.SetIKPositionWeight(AvatarIKGoal.LeftHand,1);
                 animator.SetIKRotationWeight(AvatarIKGoal.LeftHand,1);  
                 animator.SetIKPosition(AvatarIKGoal.LeftHand, LeftHand.position);
-                animator.SetIKRotation(AvatarIKGoal.LeftHand, LeftHand.rotation);
+                animator.SetIKRotation(AvatarIKGoal.LeftHand, LeftHand.rotation * Quaternion.AngleAxis(90, LeftHand.forward));
             }        
         }
     }

@@ -10,20 +10,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/CoolHands.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            <state relative-caret-position="170">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding>
-                <marker date="1557345795015" expanded="false" signature="6:78" ph="..." />
-                <marker date="1557345795015" expanded="true" signature="118:1477" ph="{...}" />
-                <marker date="1557345795015" expanded="true" signature="312:369" ph="{...}" />
-                <marker date="1557345795015" expanded="true" signature="441:1475" ph="{...}" />
-                <marker date="1557345795015" expanded="true" signature="469:1469" ph="{...}" />
-                <marker date="1557345795015" expanded="true" signature="509:628" ph="{...}" />
-                <marker date="1557345795015" expanded="true" signature="757:1086" ph="{...}" />
-                <marker date="1557345795015" expanded="true" signature="1128:1451" ph="{...}" />
+                <marker date="1557347776782" expanded="false" signature="6:78" ph="..." />
+                <marker date="1557347776782" expanded="true" signature="118:1568" ph="{...}" />
+                <marker date="1557347776782" expanded="true" signature="312:369" ph="{...}" />
+                <marker date="1557347776782" expanded="true" signature="441:1566" ph="{...}" />
+                <marker date="1557347776782" expanded="true" signature="469:1560" ph="{...}" />
+                <marker date="1557347776782" expanded="true" signature="509:628" ph="{...}" />
+                <marker date="1557347776782" expanded="true" signature="757:1132" ph="{...}" />
+                <marker date="1557347776782" expanded="true" signature="1174:1542" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/RagdollInput.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+              <folding>
+                <marker date="1557348419022" expanded="false" signature="6:78" ph="..." />
+                <marker date="1557348419022" expanded="true" signature="121:1398" ph="{...}" />
+                <marker date="1557348419022" expanded="true" signature="525:723" ph="{...}" />
+                <marker date="1557348419022" expanded="true" signature="786:1396" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -36,6 +51,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/CoolHands.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RagdollInput.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -43,6 +59,7 @@
         <option value="$PROJECT_DIR$/Assets/Mirror/Mirror.shader" />
         <option value="$PROJECT_DIR$/Assets/Mirror/MirrorReflection.cs" />
         <option value="$PROJECT_DIR$/Assets/CoolHands.cs" />
+        <option value="$PROJECT_DIR$/Assets/RagdollInput.cs" />
       </list>
     </option>
   </component>
@@ -113,12 +130,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557339386419</updated>
       <workItem from="1557339404771" duration="1189000" />
-      <workItem from="1557345645731" duration="152000" />
+      <workItem from="1557345645731" duration="1552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1341000" />
+    <option name="totallyTimeSpent" value="2741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -130,7 +147,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
@@ -195,17 +212,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CoolHands.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        <state relative-caret-position="170">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
-            <marker date="1557345795015" expanded="false" signature="6:78" ph="..." />
-            <marker date="1557345795015" expanded="true" signature="118:1477" ph="{...}" />
-            <marker date="1557345795015" expanded="true" signature="312:369" ph="{...}" />
-            <marker date="1557345795015" expanded="true" signature="441:1475" ph="{...}" />
-            <marker date="1557345795015" expanded="true" signature="469:1469" ph="{...}" />
-            <marker date="1557345795015" expanded="true" signature="509:628" ph="{...}" />
-            <marker date="1557345795015" expanded="true" signature="757:1086" ph="{...}" />
-            <marker date="1557345795015" expanded="true" signature="1128:1451" ph="{...}" />
+            <marker date="1557347776782" expanded="false" signature="6:78" ph="..." />
+            <marker date="1557347776782" expanded="true" signature="118:1568" ph="{...}" />
+            <marker date="1557347776782" expanded="true" signature="312:369" ph="{...}" />
+            <marker date="1557347776782" expanded="true" signature="441:1566" ph="{...}" />
+            <marker date="1557347776782" expanded="true" signature="469:1560" ph="{...}" />
+            <marker date="1557347776782" expanded="true" signature="509:628" ph="{...}" />
+            <marker date="1557347776782" expanded="true" signature="757:1132" ph="{...}" />
+            <marker date="1557347776782" expanded="true" signature="1174:1542" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/RagdollInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding>
+            <marker date="1557348419022" expanded="false" signature="6:78" ph="..." />
+            <marker date="1557348419022" expanded="true" signature="121:1398" ph="{...}" />
+            <marker date="1557348419022" expanded="true" signature="525:723" ph="{...}" />
+            <marker date="1557348419022" expanded="true" signature="786:1396" ph="{...}" />
           </folding>
         </state>
       </provider>
