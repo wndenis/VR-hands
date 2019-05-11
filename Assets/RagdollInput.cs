@@ -27,12 +27,13 @@ public class RagdollInput : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        leftHandRigidbody.velocity = (LeftHandAnchor.position - LeftHand.position) * Time.fixedDeltaTime;
-        rightHandRigidbody.velocity = (RightHandAnchor.position - RightHand.position) * Time.fixedDeltaTime;
-        leftHandRigidbody.angularVelocity = (LeftHandAnchor.rotation.eulerAngles - LeftHand.rotation.eulerAngles) *
-                                            Time.fixedDeltaTime;
-        rightHandRigidbody.angularVelocity = (RightHandAnchor.rotation.eulerAngles - RightHand.rotation.eulerAngles) *
-                                            Time.fixedDeltaTime;
+//        leftHandRigidbody.MovePosition(LeftHandAnchor.position);
+        rightHandRigidbody.MovePosition(RightHandAnchor.position);
+        rightHandRigidbody.MoveRotation(RightHandAnchor.rotation);
+//        leftHandRigidbody.angularVelocity = (LeftHandAnchor.rotation.eulerAngles - LeftHand.rotation.eulerAngles) *
+//                                            Time.fixedDeltaTime;
+//        rightHandRigidbody.angularVelocity = (RightHandAnchor.rotation.eulerAngles - RightHand.rotation.eulerAngles) *
+//                                            Time.fixedDeltaTime;
         
         
     }
