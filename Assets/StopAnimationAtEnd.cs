@@ -8,6 +8,7 @@ public class StopAnimationAtEnd : StateMachineBehaviour
     {
         if (stateInfo.normalizedTime >= 1 || stateInfo.normalizedTime <= 0)
         {
+            Debug.Log("Stopped animation");
             animator.speed = 0;
         }
     }

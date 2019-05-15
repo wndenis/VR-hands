@@ -77,6 +77,7 @@
         {
             if (objectToScale != null)
             {
+                print("scale");
                 objectToScale.transform.localScale = targetScale;
             }
         }

@@ -18,6 +18,7 @@ public class SwordUse : MonoBehaviour
             _linkedObject.InteractableObjectUsed += InteractableObjectUsed;
             _linkedObject.InteractableObjectUnused += InteractableObjectUnused;
         }
+        PlayAnimation(0);
     }
 
     protected virtual void OnDisable()
@@ -32,15 +33,23 @@ public class SwordUse : MonoBehaviour
     protected virtual void InteractableObjectUsed(object sender, InteractableObjectEventArgs e)
     {
         _opened = true;
-        swordToAnimate.speed = 1;
-        swordToAnimate.SetFloat("speed", swordToAnimate.GetFloat("speed") * 1);
+        PlayAnimation(1);
     }
 
     protected virtual void InteractableObjectUnused(object sender, InteractableObjectEventArgs e)
     {
         _opened = false;
-        swordToAnimate.speed = 1;
-        swordToAnimate.SetFloat("speed", swordToAnimate.GetFloat("speed") * -1);
+        PlayAnimation(-1);
+    }
+    
+    private void PlayAnimation(float speed)
+    {
+        var playTime = swordToAnimate.GetCurrentAnimatorStateInfo(0).normalizedTime;
+        print(playTime);
+        playTime = Mathf.Clamp01(playTime);
+        swordToAnimate.SetFloat("direction", speed);
+        swordToAnimate.Play("OpenClose", -1, playTime);
+        
     }
 }
 
