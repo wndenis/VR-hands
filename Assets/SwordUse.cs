@@ -7,12 +7,12 @@ using Valve.VR.InteractionSystem;
 public class SwordUse : MonoBehaviour
 {
     public Animator swordToAnimate;
+    public SteamVR_Action_Boolean pressed;
     private bool _opened;
-    private SteamVR_Action_Boolean _pressed;
-
+    
     private void Awake()
     {
-        _pressed[SteamVR_Input_Sources.Any].onStateDown += PlayAnimation;
+        pressed[SteamVR_Input_Sources.Any].onStateDown += PlayAnimation;
     }
 
 //
